@@ -29,6 +29,8 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails"
 
+gem "simple_form"
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 

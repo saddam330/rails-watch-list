@@ -1,0 +1,10 @@
+<h1>My Favourite Movies</h1>
+<ul class="list-group">
+  <% @lists.each do |list| %>
+  <li class="list-group-item">
+    <%= link_to list.name, list_path(list)%>
+  </li>
+  <% end %>
+</ul>
+
+<%= link_to 'Create new List', new_list_path %>
